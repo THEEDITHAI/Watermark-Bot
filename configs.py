@@ -19,7 +19,7 @@ class Config(object):
 	PRESET = os.environ.get("PRESET", "ultrafast")
 	OWNER_ID = int(os.environ.get("5086533101", 1445283714))
 	CAPTION = "By @RYZENVERSE"
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "VideoWatermark_Bot")
+	BOT_USERNAME = os.environ.get("EDITIHBOT", "EDITH")
 	DATABASE_URL = os.environ.get("DATABASE_URL")
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 	ALLOW_UPLOAD_TO_STREAMTAPE = bool(os.environ.get("ALLOW_UPLOAD_TO_STREAMTAPE", False))
